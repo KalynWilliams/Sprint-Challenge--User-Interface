@@ -263,3 +263,20 @@ button:hover{
 .bot-content{
 	margin-bottom: 30px;
 }
+
+input{
+	outline:none;
+	border:none;
+	border-bottom: 2px solid lightgrey;
+}
+
+input[type=text]{
+	width:50%;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+input[type=text]:focus {
+  border-bottom: 2px solid grey;
+
+}
