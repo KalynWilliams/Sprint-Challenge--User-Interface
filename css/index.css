@@ -161,6 +161,7 @@ footer nav a {
   color: black;
   margin: 0 40px 0 30px;
   text-decoration: none;
+	transition: 0.4s;
 }
 
 .header-img {
@@ -273,12 +274,14 @@ input {
   outline: none;
   border: none;
   border-bottom: 2px solid lightgrey;
+
 }
 
 input[type=text] {
   width: 50%;
   margin-bottom: 50px;
   padding: 10px;
+	transition: 0.4s;
 }
 
 input[type=text]:focus {
