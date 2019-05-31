@@ -213,3 +213,15 @@ padding: 0 1%;
 .about-content .about-text{
 	padding-bottom: 20px;
 }
+
+.mid-section{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding: 0 1%;
+}
+
+.mid-content{
+	width: 47%;
+
+}
