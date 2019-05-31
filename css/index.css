@@ -224,18 +224,42 @@ padding: 0 1%;
 .mid-content{
 	width: 47%;
 	border-bottom: 1px dashed black;
-padding: 20px;
 }
 
 .mid-section .mid-content{
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 button{
 background-color: white;
 border: 2px solid black;
- border-radius: 10px;
- margin-bottom: 40px;
- padding: 10px 20px;
- font-size:16px;
+border-radius: 10px;
+margin: 20px 0;
+padding: 10px 20px;
+font-size:16px;
+transition: 0.5s;
+}
+
+button:hover{
+	letter-spacing: 2px;
+	background-color: #62daef;
+	color:black;
+}
+
+.mid-content h1, p{
+	margin-top: 10px;
+}
+
+.nav-content a:hover{
+	color:orange;
+	letter-spacing: 1px;
+	transition: 0.4s;
+}
+
+.bot-section{
+	padding: 0 1%;
+}
+
+.bot-content{
+	margin-bottom: 30px;
 }
