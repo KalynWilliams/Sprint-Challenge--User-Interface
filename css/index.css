@@ -280,3 +280,29 @@ input[type=text]:focus {
   border-bottom: 2px solid grey;
 
 }
+
+.questions{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px dashed black;
+	margin-bottom: 20px;
+	padding: 0 1%;
+	}
+
+.questions .quest-content{
+	padding-bottom: 20px;
+ }
+
+ form{
+	 margin-top: 60px;
+ }
+
+.msg-form:focus{
+	border: 2px solid grey;
+	width:100%;
+	padding:100px;
+
+}
+
+.msg-form{
+}
