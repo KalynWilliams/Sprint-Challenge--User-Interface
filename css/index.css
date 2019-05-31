@@ -201,3 +201,15 @@ footer nav a {
 .box10{
 	background-color: dodgerblue;
 }
+
+.about-content{
+display: flex;
+flex-direction: column;
+border-bottom: 1px dashed black;
+margin-bottom: 20px;
+padding: 0 1%;
+}
+
+.about-content .about-text{
+	padding-bottom: 20px;
+}
